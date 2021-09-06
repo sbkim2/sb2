@@ -7,13 +7,22 @@ namespace _0901_1
     {
         static void Main(string[] args)
         {
-            personMode[] shinwon = {new personMode("박나나", "정보시스템팀", "7214"), new personMode("박정운", "정보시스템팀", "7238"), new personMode("이윤형", "정보시스템팀", "7252"),
-            new personMode("조미희", "정보시스템팀", "7262"), new personMode("유영석", "정보시스템팀", "7207"), new personMode("김상범", "정보시스템팀", "7225")};
+            personMode[] shinwon = {new personMode("박나나", "정보시스템팀", "7214"), 
+                                   new personMode("박정운", "정보시스템팀", "7238"), 
+                                    new personMode("이윤형", "정보시스템팀", "7252"),
+                                    new personMode("조미희", "정보시스템팀", "7262"), 
+                                    new personMode("유영석", "정보시스템팀", "7207"), 
+                                    new personMode("김상범", "정보시스템팀", "7225")
+            
+            
+            };
+
+            
 
 
 
 
-            for (int i = 0; i <= shinwon.Length; i++)
+            for (int i = 0; i < shinwon.Length; i++)
             {
                 shinwon[i].Sinfo();
                 Console.WriteLine();

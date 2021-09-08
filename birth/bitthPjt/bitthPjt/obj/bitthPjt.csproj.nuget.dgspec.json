@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rla78\\source\\repos\\birth\\bitthPjt\\bitthPjt\\bitthPjt.csproj": {}
+    "C:\\Users\\sbkim2\\Desktop\\코딩테스트\\birth\\bitthPjt\\bitthPjt\\bitthPjt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rla78\\source\\repos\\birth\\bitthPjt\\bitthPjt\\bitthPjt.csproj": {
+    "C:\\Users\\sbkim2\\Desktop\\코딩테스트\\birth\\bitthPjt\\bitthPjt\\bitthPjt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rla78\\source\\repos\\birth\\bitthPjt\\bitthPjt\\bitthPjt.csproj",
+        "projectUniqueName": "C:\\Users\\sbkim2\\Desktop\\코딩테스트\\birth\\bitthPjt\\bitthPjt\\bitthPjt.csproj",
         "projectName": "bitthPjt",
-        "projectPath": "C:\\Users\\rla78\\source\\repos\\birth\\bitthPjt\\bitthPjt\\bitthPjt.csproj",
-        "packagesPath": "C:\\Users\\rla78\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rla78\\source\\repos\\birth\\bitthPjt\\bitthPjt\\obj\\",
+        "projectPath": "C:\\Users\\sbkim2\\Desktop\\코딩테스트\\birth\\bitthPjt\\bitthPjt\\bitthPjt.csproj",
+        "packagesPath": "C:\\Users\\sbkim2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sbkim2\\Desktop\\코딩테스트\\birth\\bitthPjt\\bitthPjt\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rla78\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sbkim2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

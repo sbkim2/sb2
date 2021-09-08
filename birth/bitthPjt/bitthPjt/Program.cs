@@ -10,24 +10,15 @@ namespace bitthPjt
 
         {
 
-            DateTime birthday = new DateTime(1979, 08, 19);
-
-
-
-
-
+            DateTime birthday = new DateTime(1995, 11, 08);
 
             int years = HowManyYearsOld(birthday);
 
             Console.WriteLine($"You are { years } years old.");
 
-
-
             int months = HowManyMonthsOld(birthday);
 
             Console.WriteLine($"You are { months } months old.");
-
-
 
             int days = HowManyDaysOld(birthday);
 

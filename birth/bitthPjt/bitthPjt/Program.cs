@@ -10,7 +10,7 @@ namespace bitthPjt
 
         {
 
-            DateTime birthday = new DateTime(1995, 11, 08);  //주석 
+            DateTime birthday = new DateTime(1995, 11, 08);  //주석 추가
 
             int years = HowManyYearsOld(birthday);
 

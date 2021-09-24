@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lec06Pjt0001.ContentViewEx"
+             Padding="5"
+             xmlns:local="clr-namespace:Lec06Pjt0001">
+             
+    <ContentPage.Content>  <!--컨텐츠페이지-->
+        <ScrollView>
+            <StackLayout BackgroundColor="#00fff0">
+                <local:MyContentView Name="김상범" Major="축구" Nation="한국" Gender="남자" Age="27"/>
+                <local:MyContentView Name="박찬호" Major="야구" Nation="한국" Gender="남자" Age="27"/>
+                <local:MyContentView Name="손흥민" Major="축구" Nation="한국" Gender="남자" Age="27"/>
+                <local:MyContentView Name="노시환" Major="야구" Nation="한국" Gender="남자" Age="27"/>
+                <local:MyContentView Name="박지성" Major="축구" Nation="한국" Gender="남자" Age="27"/>
+                <local:MyContentView Name="김연아" Major="피겨" Nation="한국" Gender="여자" Age="27"/>
+                <local:MyContentView Name="바티스타" Major="레슬링" Nation="미국" Gender="남자" Age="27"/>
+                <local:MyContentView Name="김성근" Major="야구" Nation="한국" Gender="남자" Age="27"/>
+                <local:MyContentView Name="나지환" Major="야구" Nation="한국" Gender="남자" Age="27"/>
+                <local:MyContentView Name="소형준" Major="야구" Nation="한국" Gender="남자" Age="27"/>
+                <local:MyContentView Name="서동현" Major="백수" Nation="한국" Gender="남자" Age="27"/>
+                <local:MyContentView Name="소만사" Major="기업" Nation="한국" Gender="남자" Age="27"/>
+                <local:MyContentView Name="김철민" Major="족구" Nation="한국" Gender="남자" Age="27"/>
+                <local:MyContentView Name="홍길동" Major="족구" Nation="한국" Gender="남자" Age="27"/>
+                <local:MyContentView Name="권지용" Major="가수" Nation="한국" Gender="남자" Age="27"/>
+                <local:MyContentView Name="송민호" Major="가수" Nation="한국" Gender="남자" Age="27"/>
+                <local:MyContentView Name="산다라" Major="가수" Nation="한국" Gender="여자" Age="27"/>
+                <local:MyContentView Name="이강인" Major="축구" Nation="한국" Gender="남자" Age="27"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

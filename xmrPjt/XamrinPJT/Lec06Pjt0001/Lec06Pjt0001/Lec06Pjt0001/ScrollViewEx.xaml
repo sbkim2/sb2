@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lec06Pjt0001.ScrollViewEx">
+    <ContentPage.Content>
+        <ScrollView Orientation="Horizontal">
+            <StackLayout BackgroundColor="#00ff00" Orientation="Horizontal">
+              
+
+            <Label Text="Sangbeom Item1" BackgroundColor="#ffff00" Padding="10,5,10,5" TextColor="Black"/>
+            <Label Text="Sangbeom Item2" BackgroundColor="#ffff00" Padding="10,5,10,5" TextColor="Black"/>
+            <Label Text="Sangbeom Item3" BackgroundColor="#ffff00" Padding="10,5,10,5" TextColor="Black"/>
+            <Label Text="Sangbeom Item4" BackgroundColor="#ffff00" Padding="10,5,10,5" TextColor="Black"/>
+            <Label Text="Sangbeom Item5" BackgroundColor="#ffff00" Padding="10,5,10,5" TextColor="Black"/>
+            <Label Text="Sangbeom Item6" BackgroundColor="#ffff00" Padding="10,5,10,5" TextColor="Black"/>
+            <Label Text="Sangbeom Item7" BackgroundColor="#ffff00" Padding="10,5,10,5" TextColor="Black"/>
+            <Label Text="Sangbeom Item8" BackgroundColor="#ffff00" Padding="10,5,10,5" TextColor="Black"/>
+            <Label Text="Sangbeom Item9" BackgroundColor="#ffff00" Padding="10,5,10,5" TextColor="Black"/>
+            <Label Text="Sangbeom Item10" BackgroundColor="#ffff00" Padding="10,5,10,5" TextColor="Black"/>
+            <Label Text="Sangbeom Item7" BackgroundColor="#ffff00" Padding="10,5,10,5" FontSize="10"/>
+            <Label Text="Sangbeom Item7" BackgroundColor="#ffff00" Padding="10,5,10,5"/>
+            <Label Text="Sangbeom Item7" BackgroundColor="#ffff00" Padding="10,5,10,5"/>
+            <Label Text="Sangbeom Item7" BackgroundColor="#ffff00" Padding="10,5,10,5"/>
+            <Label Text="Sangbeom Item7" BackgroundColor="#ffff00" Padding="10,5,10,5"/>
+            <Label Text="Sangbeom Item7" BackgroundColor="#ffff00" Padding="10,5,10,5"/>
+            <Label Text="Sangbeom Item7" BackgroundColor="#ffff00" Padding="10,5,10,5"/>
+            <Label Text="Sangbeom Item7" BackgroundColor="#ffff00" Padding="10,5,10,5"/>
+            <Label Text="Sangbeom Item7" BackgroundColor="#ffff00" Padding="10,5,10,5"/>
+            <Label Text="Sangbeom Item7" BackgroundColor="#ffff00" Padding="10,5,10,5"/>
+            <Label Text="Sangbeom Item7" BackgroundColor="#ffff00" Padding="10,5,10,5"/>
+            <Label Text="Sangbeom Item7" BackgroundColor="#ffff00" Padding="10,5,10,5"/>
+            <Label Text="Sangbeom Item19" BackgroundColor="#ffff00" Padding="10,5,10,5"/>
+            <Label Text="Sangbeom Item20" BackgroundColor="#ffff00" Padding="10,5,10,5"/>
+
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

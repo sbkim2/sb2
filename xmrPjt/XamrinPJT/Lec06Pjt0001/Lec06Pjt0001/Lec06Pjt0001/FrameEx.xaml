@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lec06Pjt0001.FrameEx"
+             Padding="20">
+    <ScrollView>
+        <StackLayout>
+            <Frame HasShadow="True" VerticalOptions="Start" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="박상범" Padding="10"/>
+                    <Label Text="010-1234-7777" Padding="10"/>
+                    <Label Text="sbkim2@sw.co.kr" Padding="10"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame HasShadow="True" VerticalOptions="Start" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="박상범" Padding="10"/>
+                    <Label Text="010-1234-7777" Padding="10"/>
+                    <Label Text="sbkim2@sw.co.kr" Padding="10"/>
+                </StackLayout>
+                
+                
+            </Frame>
+            <Frame HasShadow="True" VerticalOptions="Start" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="박상범" Padding="10"/>
+                    <Label Text="010-1234-7777" Padding="10"/>
+                    <Label Text="sbkim2@sw.co.kr" Padding="10"/>
+                </StackLayout>
+
+
+            </Frame>
+            <Frame HasShadow="True" VerticalOptions="Start" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="박상범" Padding="10"/>
+                    <Label Text="010-1234-7777" Padding="10"/>
+                    <Label Text="sbkim2@sw.co.kr" Padding="10"/>
+                </StackLayout>
+
+
+            </Frame>
+            <Frame HasShadow="True" VerticalOptions="Start" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="박상범" Padding="10"/>
+                    <Label Text="010-1234-7777" Padding="10"/>
+                    <Label Text="sbkim2@sw.co.kr" Padding="10"/>
+                </StackLayout>
+
+
+            </Frame>
+            <Frame HasShadow="True" VerticalOptions="Start" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="박상범" Padding="10"/>
+                    <Label Text="010-1234-7777" Padding="10"/>
+                    <Label Text="sbkim2@sw.co.kr" Padding="10"/>
+                </StackLayout>
+
+
+            </Frame>
+            <Frame HasShadow="True" VerticalOptions="Start" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="박상범" Padding="10"/>
+                    <Label Text="010-1234-7777" Padding="10"/>
+                    <Label Text="sbkim2@sw.co.kr" Padding="10"/>
+                </StackLayout>
+
+
+            </Frame>
+            <Frame HasShadow="True" VerticalOptions="Start" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="박상범" Padding="10"/>
+                    <Label Text="010-1234-7777" Padding="10"/>
+                    <Label Text="sbkim2@sw.co.kr" Padding="10"/>
+                </StackLayout>
+
+            </Frame>
+            <Frame HasShadow="True" VerticalOptions="Start" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="박상범" Padding="10"/>
+                    <Label Text="010-1234-7777" Padding="10"/>
+                    <Label Text="sbkim2@sw.co.kr" Padding="10"/>
+                </StackLayout>
+
+            </Frame>
+            <Frame HasShadow="True" VerticalOptions="Start" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="박상범" Padding="10"/>
+                    <Label Text="010-1234-7777" Padding="10"/>
+                    <Label Text="sbkim2@sw.co.kr" Padding="10"/>
+                </StackLayout>
+
+            </Frame>
+            <Frame HasShadow="True" VerticalOptions="Start" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="박상범" Padding="10"/>
+                    <Label Text="010-1234-7777" Padding="10"/>
+                    <Label Text="sbkim2@sw.co.kr" Padding="10"/>
+                </StackLayout>
+
+            </Frame>
+            <Frame HasShadow="True" VerticalOptions="Start" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="박상범" Padding="10"/>
+                    <Label Text="010-1234-7777" Padding="10"/>
+                    <Label Text="sbkim2@sw.co.kr" Padding="10"/>
+                </StackLayout>
+
+            </Frame>
+            <Frame HasShadow="True" VerticalOptions="Start" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="박상범" Padding="10"/>
+                    <Label Text="010-1234-7777" Padding="10"/>
+                    <Label Text="sbkim2@sw.co.kr" Padding="10"/>
+                </StackLayout>
+
+            </Frame>
+            <Frame HasShadow="True" VerticalOptions="Start" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="박상범" Padding="10"/>
+                    <Label Text="010-1234-7777" Padding="10"/>
+                    <Label Text="sbkim2@sw.co.kr" Padding="10"/>
+                </StackLayout>
+
+            </Frame>
+                
+
+
+
+
+            
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

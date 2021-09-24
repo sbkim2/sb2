@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lec06Pjt0001.MyContentView">
+  <ContentView.Content> <!--컨텐츠뷰 : 사용자가 직접 정의한 뷰-->
+      <StackLayout Orientation="Horizontal" BackgroundColor="#ffff00">
+            <Label x:Name="pName" Text="박찬호"
+                 Padding="7"
+                 BackgroundColor="#ff0000"
+                 FontSize="20"/>
+            <Label x:Name="pMajor" Text="야구"
+                 Padding="7"
+                 BackgroundColor="#ff0000"
+                 FontSize="20"/>
+            <Label x:Name="pNation" Text="한국"
+                 Padding="7"
+                 BackgroundColor="#ff0000"
+                 FontSize="20"/>
+            <Label x:Name="pGender" Text="남자"
+                 Padding="7"
+                 BackgroundColor="#ff0000"
+                 FontSize="20"/>
+            <Label x:Name="pAge" Text="48"
+                 Padding="7"
+                 BackgroundColor="#ff0000"
+                 FontSize="20"/>
+
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

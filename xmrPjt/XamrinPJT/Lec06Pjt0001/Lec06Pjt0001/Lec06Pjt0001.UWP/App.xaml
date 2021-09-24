@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="Lec06Pjt0001.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lec06Pjt0001.UWP">
+
+</Application>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="popup_prompt.promptEX">
+    <ContentPage.Content>
+        <StackLayout Padding="20" 
+                     BackgroundColor="Yellow">
+            <Button x:Name="btn01"
+                    Text="버튼 1" 
+                    Clicked="btn01_Clicked" />
+            <Label x:Name="label01"
+                   FontSize="20"
+                   Padding="10"
+                   BackgroundColor="#fff"/>
+
+            <Button x:Name="btn02"
+                    Text="버튼 2" 
+                    Clicked="btn01_Clicked"
+                    Margin="0, 20, 0, 0"/>
+            <Label x:Name="label02"
+                   FontSize="20"
+                   Padding="10"
+                   BackgroundColor="#fff"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

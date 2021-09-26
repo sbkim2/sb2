@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="popup_prompt.popupEX">
+    <ContentPage.Content>
+        <StackLayout Padding="20" 
+                     BackgroundColor="Yellow">
+            <Button x:Name="btn01"
+                    Text="button 01" 
+                    Clicked="btn01_Clicked" /> <!--이벤트핸들러 생성 -->
+
+            <Button x:Name="btn02"
+                    Text="button 02" 
+                    Clicked="btn01_Clicked" />
+
+            <Button x:Name="btn03"
+                    Text="button 03" 
+                    Clicked="btn01_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

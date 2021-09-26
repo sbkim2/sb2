@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="layout_Stack_Grid_Table.stack">
+    <ContentPage.Content>
+        <ScrollView Orientation="Horizontal">
+            <!-- 위아래로 움직일 수 있도록 스크록 부착 Horizontal은 좌우로 스크롤임 -->
+
+            <StackLayout Spacing="30" Orientation="Horizontal"> <!--스택레이아웃의 속성을 정의  -->
+            <Label Text="라벨01" BackgroundColor="#ff0000"/>
+            <Label Text="라벨02" BackgroundColor="#ff0000"/>
+            <Label Text="라벨03" BackgroundColor="#ff0000"/>
+            <Label Text="라벨04" BackgroundColor="#ff0000"/>
+            <Label Text="라벨05" BackgroundColor="#ff0000"/>
+            <Label Text="라벨06" BackgroundColor="#ff0000"/>
+            <Label Text="라벨07" BackgroundColor="#ff0000"/>
+            <Label Text="라벨08" BackgroundColor="#ff0000"/>
+            <Label Text="라벨09" BackgroundColor="#ff0000"/>
+            <Label Text="라벨10" BackgroundColor="#ff0000"/>
+            <Label Text="라벨11" BackgroundColor="#ff0000"/>
+            <Label Text="라벨12" BackgroundColor="#ff0000"/>
+            <Label Text="라벨13" BackgroundColor="#ff0000"/>
+            <Label Text="라벨14" BackgroundColor="#ff0000"/>
+            <Label Text="라벨15" BackgroundColor="#ff0000"/>
+            <Label Text="라벨16" BackgroundColor="#ff0000"/>
+            <Label Text="라벨17" BackgroundColor="#ff0000"/>
+            <Label Text="라벨18" BackgroundColor="#ff0000"/>
+            <Label Text="라벨19" BackgroundColor="#ff0000"/>
+            <Label Text="라벨20" BackgroundColor="#ff0000"/>
+        </StackLayout>
+    </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

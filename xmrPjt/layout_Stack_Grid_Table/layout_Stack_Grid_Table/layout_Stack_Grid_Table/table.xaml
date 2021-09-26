@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="layout_Stack_Grid_Table.table">
+    <ContentPage.Content>
+        <TableView> <!--테이블을 사용하겠다-->
+            <TableRoot> <!--테이블 루트 생성-->
+                <TableSection Title="메일"> <!--각각으 테이블 섹션 생성-->
+                    <SwitchCell Text="새로운 음성메세지"/> <!--토글 스위치?-->
+                    <SwitchCell Text="새 메일" On="True"/> <!--기본값으로 킨 상태임-->
+                </TableSection>
+
+                <TableSection Title="메시지">
+                    <SwitchCell Text="짧은 메시지"/>
+                    <SwitchCell Text="멀티 메시지" On="True"/>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </ContentPage.Content>
+</ContentPage>

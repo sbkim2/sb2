@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="layout_Stack_Grid_Table.grid">
+    <ContentPage.Content>
+        <Grid BackgroundColor="#0000ff" RowSpacing="20" ColumnSpacing="20" Padding="30">
+            <!--RowSpacing : 행간 격 ColumnSpacing : 열 간격 -->
+
+            <Label Grid.Row="0" Grid.Column="0" Text="Label01" BackgroundColor="#fff" />
+            <Label Grid.Row="0" Grid.Column="1" Text="Label02" BackgroundColor="#fff" />
+            <Label Grid.Row="0" Grid.Column="2" Text="Label03" BackgroundColor="#fff" />
+            <!--0행의 0,1,2 열-->
+            <Label Grid.Row="1" Grid.Column="0" Text="Label04" BackgroundColor="#fff" />
+            <Label Grid.Row="1" Grid.Column="1" Text="Label05" BackgroundColor="#fff" />
+            <Label Grid.Row="1" Grid.Column="2" Text="Label06" BackgroundColor="#fff" />
+            <!--1행의 0,1,2 열-->
+            <Label Grid.Row="2" Grid.Column="0" Text="Label07" BackgroundColor="#fff" />
+            <Label Grid.Row="2" Grid.Column="1" Text="Label08" BackgroundColor="#fff" />
+            <Label Grid.Row="2" Grid.Column="2" Text="Label09" BackgroundColor="#fff" />
+            
+            <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Text="Label10" BackgroundColor="#ffffff" /> <!--3행의 0,1열을 합침-->
+            <Label Grid.Row="3" Grid.Column="2" Text="Label11" BackgroundColor="#fff" />
+            
+            <Label Grid.Row="4" Grid.Column="0" Text="Label12" BackgroundColor="#ffffff" />
+            <Label Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Text="Label13" BackgroundColor="#fff" />  <!--4행의 1.2열을 합침-->
+            
+            <Label Grid.Row="5" Grid.ColumnSpan="3" Text="Label15" BackgroundColor="#fff" /> <!--5행의 모든 열을 합침-->
+            
+            <Label Grid.Row="6" Grid.RowSpan="3" Grid.Column="0" Text="Label16" BackgroundColor="#fff" /> <!--6행부터 아래로 3개의 행을 합침-->
+            <Label Grid.Row="6" Grid.Column="1" Text="Label17" BackgroundColor="#fff" />
+            <Label Grid.Row="6" Grid.Column="2" Text="Label18" BackgroundColor="#fff" />
+            
+            <Label Grid.Row="7" Grid.Column="1" Grid.RowSpan="2" Text="Label19" BackgroundColor="#fff" /> <!--6행에서 첫번째 열을 먹었기 때문에 0열이 없다
+            추가로 1번 열에서 아래로 1행을 먹음-->
+            <Label Grid.Row="7" Grid.Column="2" Text="Label20" BackgroundColor="#fff" />
+            
+            <Label Grid.Row="8" Grid.Column="2" Text="Label22" BackgroundColor="#fff" /> <!--3번째 행만 남아있음-->
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

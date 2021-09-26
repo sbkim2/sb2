@@ -14,7 +14,7 @@ namespace picker
     {
         public timepickerEX()
         {
-            InitializeComponent();
+            InitializeComponent(); // 깃허브 테스트
         }
 
         private void tp01_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e) // 속성이 변하면 발동하는 핸들러다

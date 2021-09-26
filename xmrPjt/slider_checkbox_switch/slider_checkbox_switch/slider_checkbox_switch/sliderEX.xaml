@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="slider_checkbox_switch.sliderEX">
+    <ContentPage.Content>
+        <StackLayout Padding="30" BackgroundColor="Yellow">
+            <Label Text="Slider01 value(0 ~ 1)" />
+            <Entry x:Name="entry01" Placeholder="Slider value" />
+            <!--값을 받는 entry, Placeholder는 기본적으로 보여지는 값-->
+            <Slider x:Name="slider01" 
+                    ValueChanged="slider01_ValueChanged" />
+            <!--ValueChanged는 이벤트 헨들러, 값이 변화면 발동 -->
+
+            <Label Text="Slider02 value(0 ~ 10)" Margin="0, 30, 0, 0"/>
+            <Entry x:Name="entry02" Placeholder="Slider Value" />
+            <Slider x:Name="slider02"
+                    ValueChanged="slider01_ValueChanged"
+                    Minimum="2"
+                    Maximum="10"/> <!--슬라이더 벨류의 최소값과 최대 =값을 설정, 디폴트는 0에서 1임-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

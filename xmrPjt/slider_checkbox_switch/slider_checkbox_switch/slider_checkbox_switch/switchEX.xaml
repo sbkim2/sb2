@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="slider_checkbox_switch.switchEX">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="20">
+                <StackLayout Orientation="Horizontal" 
+                         BackgroundColor="Yellow" 
+                         Padding="20">
+                    <Label Text="햄버거" />
+                    <Switch x:Name="st01" 
+                        Toggled="st01_Toggled"
+                        HorizontalOptions="EndAndExpand"/><!-- 토글을 생성하였고, 오른쪽끝으로 붙힘-->
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" 
+                         BackgroundColor="Yellow" 
+                         Padding="20">
+                    <Label Text="감자튀김" />
+                    <Switch x:Name="st02" 
+                        Toggled="st01_Toggled"
+                        HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" 
+                         BackgroundColor="Yellow" 
+                         Padding="20">
+                    <Label Text="음료" />
+                    <Switch x:Name="st03" 
+                        Toggled="st01_Toggled"
+                        HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+
+                <Label x:Name="la01" 
+                   Padding="10"
+                   FontSize="15"
+                   FontAttributes="Bold"
+                   BackgroundColor="Red"
+                   TextColor="White"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="slider_checkbox_switch.checkboxEX">
+    <ContentPage.Content>
+        <StackLayout Padding="30" BackgroundColor="Yellow">
+            <StackLayout Orientation="Horizontal" 
+                Padding="10"
+                         BackgroundColor="#fff">
+                <!--Horizontal은 가로-->
+                <Label Text="햄버거"
+                       FontSize="20"
+                       Margin="5, 0, 0, 0"
+                       TextColor="Red"/>
+                <CheckBox x:Name="chbHamburger"
+                          Color="Red" 
+                          HorizontalOptions="EndAndExpand"
+                          CheckedChanged="CheckBox_CheckedChanged"/> <!--이벤트 헨들러, 체크 박스가 변화가 되면 발동-->
+                <!--HorizontalOptions="EndAndExpand"은 오른쪽 끝에 붙힌다는것임-->
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"
+                         Padding="10"
+                         BackgroundColor="#fff">
+                <Label Text="감자튀김"
+                       FontSize="20"
+                       Margin="5, 0, 0, 0"
+                       TextColor="Red"/>
+                <CheckBox x:Name="chbFenchfries"
+                          Color="Red" 
+                          HorizontalOptions="EndAndExpand"
+                          CheckedChanged="CheckBox_CheckedChanged"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"
+                         Padding="10"
+                         BackgroundColor="#fff">
+                <Label Text="음료수"
+                       FontSize="20"
+                       Margin="5, 0, 0, 0"
+                       TextColor="Red"/>
+                <CheckBox x:Name="chbDrink"
+                          Color="red" 
+                          HorizontalOptions="EndAndExpand"
+                          CheckedChanged="CheckBox_CheckedChanged"/>
+            </StackLayout>
+
+            <Label x:Name="labelMenu" 
+                   FontSize="20"
+                   BackgroundColor="#fff" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

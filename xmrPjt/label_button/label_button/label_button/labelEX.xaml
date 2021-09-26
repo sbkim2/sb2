@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="label_button.labelEX">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="#cccccc"> <!--위에서 아래로-->
+            <Label Text="레이블01" Padding="10" BackgroundColor="LawnGreen" HorizontalOptions="Start" HorizontalTextAlignment="Center" FontSize="12" FontAttributes="Bold" TextColor="Red"/>
+            <!--HorizontalTextAlignment는 텍스트의 위치임-->
+            <Label Text="레이블02" Padding="10" BackgroundColor="LawnGreen" HorizontalOptions="End" HorizontalTextAlignment="Center" FontSize="12" FontAttributes="Bold" TextColor="Red"/>
+            <!--HorizontalOptions는 라벨의 위치임. CenterAndExpand 는 면적을 자동으로 나눔-->
+            <Label Text="레이블03" Padding="10" BackgroundColor="LawnGreen" HorizontalOptions="Fill" HorizontalTextAlignment="Center" FontSize="12" FontAttributes="Bold" TextColor="Red"/>
+            <Label Text="레이블04" Padding="10" BackgroundColor="LawnGreen" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" FontSize="12" FontAttributes="Bold" TextColor="Red"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

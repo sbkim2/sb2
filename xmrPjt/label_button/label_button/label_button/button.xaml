@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="label_button.button">
+    <ContentPage.Content>
+        <StackLayout Padding="25">
+            <Button Text="버튼01" BackgroundColor="Red" Clicked="Button_Clicked"/> <!--이벤트 함수가 cs파일에 만들어짐-->
+            <Button x:Name="btn2"  Text="버튼02" BackgroundColor="Yellow" Clicked="onClickBtn"/>
+            <Button Text="버튼03" BackgroundColor="Blue" Clicked="Button03_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

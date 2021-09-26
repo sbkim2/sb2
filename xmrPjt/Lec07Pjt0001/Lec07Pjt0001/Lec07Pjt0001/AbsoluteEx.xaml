@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Lec07Pjt0001.AbsoluteEx">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Label Text="Mint" AbsoluteLayout.LayoutBounds="300, 50, 100, 50" AbsoluteLayout.LayoutFlags="None" BackgroundColor="#00ffff" />
+            <Label Text="Red" AbsoluteLayout.LayoutBounds="10, 50, 200, 100" BackgroundColor="#ff0000" />
+            <Label Text="Green" AbsoluteLayout.LayoutBounds="210, 150, 100, 200" BackgroundColor="#00ff00" />
+            <Label Text="Blue" AbsoluteLayout.LayoutBounds="110, 350, 100, 150" BackgroundColor="#0000ff" />
+
+            <Label Text="Yellow-Top" AbsoluteLayout.LayoutBounds=".5, 0, 0.5, 0.05" AbsoluteLayout.LayoutFlags="All" BackgroundColor="#ffff00" />
+            <Label Text="Yellow-Left" AbsoluteLayout.LayoutBounds="0, .5, 50, 100" AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="#ffff00" />
+            <Label Text="Yellow-Right" AbsoluteLayout.LayoutBounds="1, .5, 50, 100" AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="#ffff00" />
+            <Label Text="Yellow-Bottom" AbsoluteLayout.LayoutBounds=".5, 1, 100, 50" AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="#ffff00" />
+            
+            <Label Text="Pink" AbsoluteLayout.LayoutBounds="50, 50, 100, .5" AbsoluteLayout.LayoutFlags="HeightProportional" BackgroundColor="#ff00ff" />
+            <Label Text="Pink" AbsoluteLayout.LayoutBounds="20, 400, .5, 100" AbsoluteLayout.LayoutFlags="WidthProportional" BackgroundColor="#ff00ff" />
+            <Label Text="Pink" AbsoluteLayout.LayoutBounds="200, 100, .3, .3" AbsoluteLayout.LayoutFlags="SizeProportional" BackgroundColor="#ff00ff" />
+            <Label Text="Pink" AbsoluteLayout.LayoutBounds=".5, 10, 100, 50" AbsoluteLayout.LayoutFlags="XProportional" BackgroundColor="#ff00ff" />
+            <Label Text="Pink" AbsoluteLayout.LayoutBounds="50, 1, 100, 50" AbsoluteLayout.LayoutFlags="YProportional" BackgroundColor="#ff00ff" />
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

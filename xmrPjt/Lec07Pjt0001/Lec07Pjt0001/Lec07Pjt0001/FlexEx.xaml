@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Lec07Pjt0001.FlexEx">
+    <ContentPage.Content>
+        <FlexLayout Direction="Column"
+                    AlignItems="Stretch"
+                    JustifyContent="SpaceBetween"
+                    BackgroundColor="#cccccc">
+
+            <Label Text="label01"
+                   BackgroundColor="#ff0000"
+                   Padding="10"/>
+
+            <Label Text="label02"
+                   BackgroundColor="#00ff00"
+                   Padding="10"/>
+
+            <Label Text="label02"
+                   BackgroundColor="#0000ff"
+                   Padding="10"/>
+
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>

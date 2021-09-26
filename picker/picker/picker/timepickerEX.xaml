@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="picker.timepickerEX">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <TimePicker x:Name="tp01"
+                        Time="12:00:00"
+                        HorizontalOptions="Center"
+                        FontSize="25"
+                        Format="HH : mm : ss"
+                        PropertyChanged="tp01_PropertyChanged"/> <!-- 프로퍼티가 변할때 동작하는 핸들러 -->
+            <!--Format 은 나타내는 포맷형식을 정의-->
+            <Label x:Name="label01"
+                   Padding="10"
+                   FontSize="20"
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   BackgroundColor="Red"
+                   HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

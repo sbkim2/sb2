@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="entry_editor_image.entryEX">
+    <ContentPage.Content>
+        <StackLayout Padding="30">
+            <Label Text="Name"/>
+            <Entry x:Name="eName" Keyboard="Default"/> <!--키보드로 값을 입력받음-->
+
+            <Label Text="ID"/>
+            <Entry x:Name="eID" Keyboard="Text"/>
+            <!--키보드로 값을 입력받음-->
+
+            <Label Text="E-mail"/>
+            <Entry x:Name="eMail" Keyboard="Email"/>
+            <!--키보드로 값을 입력받음-->
+            
+            <Label Text="Major"/>
+            <Entry x:Name="eMajor" Keyboard="Default"/>
+            <!--키보드로 값을 입력받음-->
+            
+            <Label Text="Phone"/>
+            <Entry x:Name="ePhone" Keyboard="Telephone"/>
+            <!--키보드로 값을 입력받음-->
+
+            <Label Text="Grade"/>
+            <Entry x:Name="eGrade" Keyboard="Numeric"/>
+            <!--키보드로 값을 입력받음-->
+
+            <Button x:Name="BtnConfirm" Text="Confirm" Clicked="BtnConfirm_Clicked"/>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

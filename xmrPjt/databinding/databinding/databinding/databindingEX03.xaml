@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="databinding.databindingEX03">
+    <ContentPage.Content>
+        <StackLayout Padding="20" BackgroundColor="#f88">
+            <Label x:Name="label01"
+                   Text="Hello"
+                   BackgroundColor="#FFF"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+
+                   Padding="{Binding Source={x:Reference Name=slider01}, Path=Value}"/>
+            <!--xaml에서 바인딩을 할 수 있게 해줌, 한줄 표시식-->
+
+            <Label x:Name="label02"
+                   Text="xamarin"
+                   BackgroundColor="#FFF"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   BindingContext="{x:Reference Name=slider01}"
+                   FontSize="{Binding Path=Value}"/>
+            <!--xaml에서 바인딩을 할 수 있게 해줌,-->
+
+            <Slider x:Name="slider01"
+                    Maximum="40"
+                    Minimum="10"
+                    />
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

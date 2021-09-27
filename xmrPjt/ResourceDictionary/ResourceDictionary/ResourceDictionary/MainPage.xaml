@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ResourceDictionary.MainPage" Padding="10">
+
+    <StackLayout BackgroundColor="Yellow">
+        <Label x:Name="label01"
+               Text="안녕 자마린"
+               HorizontalOptions="FillAndExpand"
+               BackgroundColor="Red"
+               Padding="20"
+               FontSize="20"
+               FontAttributes="Bold"
+               TextColor="Black"
+               
+               />
+
+        <Button x:Name="btn01"
+            Text="버튼1"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="#f00"
+            Padding="20"
+            FontSize="20"
+            FontAttributes="Bold"
+            TextColor="Black"
+                />
+
+        <Label x:Name="label02"
+               Text="안녕 자마린"
+               HorizontalOptions="FillAndExpand"
+               BackgroundColor="Green"
+               Padding="20"
+               FontSize="20"
+               FontAttributes="Bold"
+               TextColor="Black"
+               
+               />
+
+        <Button x:Name="btn02"
+            Text="버튼2"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="Green"
+            Padding="20"
+            FontSize="20"
+            FontAttributes="Bold"
+            TextColor="Black"
+                />
+
+        <Label x:Name="label03"
+               Text="안녕 자마린"
+               HorizontalOptions="FillAndExpand"
+               BackgroundColor="DeepSkyBlue"
+               Padding="20"
+               FontSize="20"
+               FontAttributes="Bold"
+               TextColor="Black"
+               
+               />
+
+        <Button x:Name="btn03"
+            Text="버튼3"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="DeepSkyBlue"
+            Padding="20"
+            FontSize="20"
+            FontAttributes="Bold"
+            TextColor="Black"
+                />
+    </StackLayout>
+
+</ContentPage>

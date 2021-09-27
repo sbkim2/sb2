@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ResourceDictionary.StaticResourceEX" Padding="10">
+
+    <ContentPage.Resources>
+        <Color x:Key="outPjtBackgroundColorRed">#f00</Color>
+        <Color x:Key="outPjtBackgroundColorGreen">Green</Color>
+        <Color x:Key="outPjtBackgroundColorBlue">DeepSkyBlue</Color>
+
+        <x:Double x:Key="outPjtPaddingBig">50</x:Double>
+        <x:Double x:Key="outPjtPaddingNomal">10</x:Double>
+        <x:Double x:Key="outPjtPaddingSmall">5</x:Double> <!--패딩은 더블형이다, 이는 ms것이기 때문에 x:Double로 선언-->
+
+        <x:Double x:Key="outPjtFontBig">30</x:Double>
+        <x:Double x:Key="outPjtFontnomal">20</x:Double>
+        <x:Double x:Key="outPjtFontSmall">15</x:Double>
+
+        <FontAttributes x:Key="outPjtFontAttBold">Bold</FontAttributes>
+        <FontAttributes x:Key="outPjtFontAttItalic">Italic</FontAttributes>
+        <FontAttributes x:Key="outPjtFontAttBI">bold, Italic</FontAttributes>
+
+    </ContentPage.Resources> <!--리소스 자원, 키를 통해서 불러서 사용가능, 한번에 수정이 가능하다는 장점이있다-->
+    
+    
+    
+    
+    
+    
+    <StackLayout BackgroundColor="Yellow">
+        <Label x:Name="label01"
+               Text="안녕 자마린"
+               HorizontalOptions="FillAndExpand"
+               BackgroundColor="{StaticResource Key=outPjtBackgroundColorRed}"
+               Padding="{StaticResource Key=outPjtPaddingBig}"
+               FontSize="{StaticResource Key=outPjtFontBig}"
+               FontAttributes="{StaticResource Key=outPjtFontAttBI}"
+               TextColor="Black"
+               
+               />
+
+        <Button x:Name="btn01"
+            Text="버튼1"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="{StaticResource Key=outPjtBackgroundColorRed}"
+            Padding="{StaticResource Key=outPjtPaddingBig}"
+            FontSize="{StaticResource Key=outPjtFontBig}"
+            FontAttributes="{StaticResource Key=outPjtFontAttBI}"
+            TextColor="Black"
+                />
+
+        <Label x:Name="label02"
+               Text="안녕 자마린"
+               HorizontalOptions="FillAndExpand"
+               BackgroundColor="{StaticResource Key=outPjtBackgroundColorGreen}"
+               Padding="{StaticResource Key=outPjtPaddingNomal}"
+               FontSize="{StaticResource Key=outPjtFontnomal}"
+               FontAttributes="{StaticResource Key=outPjtFontAttBI}"
+               TextColor="Black"
+               
+               />
+
+        <Button x:Name="btn02"
+            Text="버튼2"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="{StaticResource Key=outPjtBackgroundColorGreen}"
+            Padding="{StaticResource Key=outPjtPaddingNomal}"
+            FontSize="{StaticResource Key=outPjtFontnomal}"
+            FontAttributes="{StaticResource Key=outPjtFontAttBI}"
+            TextColor="Black"
+                />
+
+        <Label x:Name="label03"
+               Text="안녕 자마린"
+               HorizontalOptions="FillAndExpand"
+               BackgroundColor="{StaticResource Key=outPjtBackgroundColorBlue}"
+               Padding="{StaticResource Key=outPjtPaddingSmall}"
+               FontSize="{StaticResource Key=outPjtFontSmall}"
+               FontAttributes="{StaticResource Key=outPjtFontAttBI}"
+               TextColor="Black"
+               
+               />
+
+        <Button x:Name="btn03"
+            Text="버튼3"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="{StaticResource Key=outPjtBackgroundColorBlue}"
+            Padding="{StaticResource Key=outPjtPaddingSmall}"
+            FontSize="{StaticResource Key=outPjtFontSmall}"
+            FontAttributes="{StaticResource Key=outPjtFontAttBI}"
+            TextColor="Black"
+                />
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="staticResource_Cs.MainPage"
+             xmlns:local="clr-namespace:staticResource_Cs"> <!--클래스를 Using한다고 선언-->
+               
+
+    <StackLayout BackgroundColor="Yellow">
+        <Label x:Name="label01"
+               Text="안녕 자마린"
+               HorizontalOptions="FillAndExpand"
+               BackgroundColor="{x:Static local:resoureceCls.BackColorRed }"
+               Padding="{x:Static local:resoureceCls.PadingBig }"
+               FontSize="{x:Static local:resoureceCls.FontBig }"
+               FontAttributes="{x:Static local:resoureceCls.FontAttBold }"
+               TextColor="{x:Static local:resoureceCls.txtColorBlack }"
+               
+               />
+
+        <Button x:Name="btn01"
+            Text="버튼1"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="#f00"
+            Padding="20"
+            FontSize="20"
+            FontAttributes="Bold"
+            TextColor="Black"
+                />
+
+        <Label x:Name="label02"
+               Text="안녕 자마린"
+               HorizontalOptions="FillAndExpand"
+               BackgroundColor="{x:Static local:resoureceCls.BackColorGreen}"
+               Padding="{x:Static local:resoureceCls.PadingNomal }"
+               FontSize="{x:Static local:resoureceCls.FontNomal }"
+               FontAttributes="{x:Static local:resoureceCls.FontAttItalic }"
+               TextColor="{x:Static local:resoureceCls.txtColorGray }"
+               
+               />
+
+        <Button x:Name="btn02"
+            Text="버튼2"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="Green"
+            Padding="20"
+            FontSize="20"
+            FontAttributes="Bold"
+            TextColor="Black"
+                />
+
+        <Label x:Name="label03"
+               Text="안녕 자마린"
+               HorizontalOptions="FillAndExpand"
+               BackgroundColor="{x:Static local:resoureceCls.BackColorBlue}"
+               Padding="{x:Static local:resoureceCls.PadingSmall }"
+               FontSize="{x:Static local:resoureceCls.FontSmall }"
+               FontAttributes="{x:Static local:resoureceCls.FontAttBI }"
+               TextColor="{x:Static local:resoureceCls.txtColorWhite }"
+               
+               />
+
+        <Button x:Name="btn03"
+            Text="버튼3"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="DeepSkyBlue"
+            Padding="20"
+            FontSize="20"
+            FontAttributes="Bold"
+            TextColor="Black"
+                />
+    </StackLayout>
+
+</ContentPage>

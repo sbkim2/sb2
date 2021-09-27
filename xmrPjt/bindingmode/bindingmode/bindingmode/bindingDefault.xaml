@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bindingmode.bindingDefault"
+             Padding="5"
+             BackgroundColor="#f88">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="label01"
+                   Text="hello"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   TextColor="#f00"
+                   BackgroundColor="#fff"
+                   Padding="{Binding Source={x:Reference Name=slider01},Path=Value}" 
+                   /> <!--디폴트 방식이다-->
+            
+            <Label x:Name="label02"
+                   Text="xamarin"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   TextColor="#f00"
+                   BackgroundColor="#fff"
+                   Padding="20"
+                   FontSize="{Binding Source={x:Reference Name=slider01},Path=Value}"
+                   />
+
+            <Slider x:Name="slider01"
+                    Maximum="36"
+                    Minimum="12"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

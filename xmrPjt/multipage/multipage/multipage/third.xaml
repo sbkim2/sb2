@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="multipage.third">
+
+    <NavigationPage.TitleView>
+        <Label Text="third Page"
+               TextColor="#fff"
+               FontAttributes="Bold"
+               HorizontalOptions="End"
+               Margin="0,0,20,0"/>
+
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Yellow" Margin="20">
+            <Label Text="third page"
+                   HorizontalTextAlignment="Center"
+                   BackgroundColor="#f0f"
+                   Padding="20"
+                   TextColor="#fff"
+                   FontSize="30"
+                   FontAttributes="Bold"/>
+
+            <Button x:Name="btn01"
+                    Text="go to second page"
+                    Margin="20"
+                    Clicked="btn01_Clicked"/>
+
+            <Button x:Name="btn02"
+                    Text="go to root page"
+                    Margin="20"
+                    Clicked="btn01_Clicked"/>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

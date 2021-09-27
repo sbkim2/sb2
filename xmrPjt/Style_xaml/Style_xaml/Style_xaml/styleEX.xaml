@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Style_xaml.styleEX"
+             Padding="10">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="mainTitle" TargetType="Label"> <!--키의 이름과 타겟의 타입을 정의-->
+                <Setter Property="TextColor" Value="#fff"/> <!--해당 속성과 값을 정의-->
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Padding" Value="5"/>
+                <Setter Property="BackgroundColor" Value="#f00"/>
+                <Setter Property="HorizontalTextAlignment" Value="End"/>
+            </Style>
+
+            <Style x:Key="subTitle" TargetType="Label">
+                <Setter Property="TextColor" Value="#fff"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Padding" Value="3, 3, 20, 3"/> <!--오른쪽에서 떨어지도록 설정함-->
+                <Setter Property="BackgroundColor" Value="#900"/>
+                <Setter Property="HorizontalTextAlignment" Value="End"/>
+            </Style>
+
+            <Style x:Key="article" TargetType="Label">
+                <Setter Property="TextColor" Value="#fff"/>
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="FontAttributes" Value="None"/>
+                <Setter Property="Padding" Value="3, 3, 40, 3"/>
+                <Setter Property="BackgroundColor" Value="#500"/>
+                <Setter Property="HorizontalTextAlignment" Value="End"/>
+            </Style>
+
+            <Style x:Key="moreBtn" TargetType="Button">
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="BackgroundColor" Value="Blue"/>
+                <Setter Property="TextColor" Value="#fff"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    
+    <StackLayout>
+        <StackLayout.Resources>
+            
+            
+        </StackLayout.Resources> <!--검색순위는 뷰 부터 레이아웃, 콘텐츠페이지, 애플리케이션 순서다-->
+        <Label x:Name="mainTitle01"
+               Text="메인타이틀"
+              Style="{StaticResource mainTitle}"/>
+
+        <Label x:Name="subTitle01"
+               Text="서브타이틀"
+              Style="{StaticResource subTitle}"/>
+
+        <Label x:Name="article01"
+               Text="자마린을 배운다"
+              Style="{StaticResource article}"/>
+        
+        <Button x:Name="btn01"
+                Text="more"
+                Style="{StaticResource moreBtn}"/>
+
+        <Label x:Name="mainTitle02"
+               Text="메인제목"
+               TextColor="#fff"
+               FontSize="30"
+               FontAttributes="Bold"
+               Padding="5"
+               BackgroundColor="#f00"/>
+
+        <Label x:Name="subTitle02"
+               Text="서브제목"
+                Style="{StaticResource subTitle}"/>
+        
+
+        <Label x:Name="article02"
+               Text="열심히 공부하자."
+              Style="{StaticResource article}"/>
+        <Button x:Name="btn02"
+                Text="more"
+                Style="{StaticResource moreBtn}"/>
+
+    </StackLayout>
+
+</ContentPage>

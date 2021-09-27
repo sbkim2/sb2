@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Style_xaml.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="mainTitle" TargetType="Label">
+                <!--키의 이름과 타겟의 타입을 정의-->
+                <Setter Property="TextColor" Value="#fff"/>
+                <!--해당 속성과 값을 정의-->
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Padding" Value="5"/>
+                <Setter Property="BackgroundColor" Value="#f00"/>
+                <Setter Property="HorizontalTextAlignment" Value="End"/>
+            </Style>
+
+            <Style x:Key="subTitle" TargetType="Label">
+                <Setter Property="TextColor" Value="#fff"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Padding" Value="3, 3, 20, 3"/>
+                <!--오른쪽에서 떨어지도록 설정함-->
+                <Setter Property="BackgroundColor" Value="#900"/>
+                <Setter Property="HorizontalTextAlignment" Value="End"/>
+            </Style>
+
+            <Style x:Key="article" TargetType="Label">
+                <Setter Property="TextColor" Value="#fff"/>
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="FontAttributes" Value="None"/>
+                <Setter Property="Padding" Value="3, 3, 40, 3"/>
+                <Setter Property="BackgroundColor" Value="#500"/>
+                <Setter Property="HorizontalTextAlignment" Value="End"/>
+            </Style>
+
+            <Style x:Key="moreBtn" TargetType="Button">
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="BackgroundColor" Value="Blue"/>
+                <Setter Property="TextColor" Value="#fff"/>
+            </Style>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

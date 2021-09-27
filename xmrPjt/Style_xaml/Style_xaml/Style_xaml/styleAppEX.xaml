@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Style_xaml.styleAppEX"
+             Padding="10">
+
+    <ContentPage.Resources>
+        
+    </ContentPage.Resources>
+
+
+    <StackLayout>
+        <!-- <StackLayout.Resources>
+
+
+        </StackLayout.Resources> -->
+        <!--검색순위는 뷰 부터 레이아웃, 콘텐츠페이지, 애플리케이션 순서다-->
+        <Label x:Name="mainTitle01"
+               Text="메인타이틀"
+              Style="{StaticResource mainTitle}"/>
+
+        <Label x:Name="subTitle01"
+               Text="서브타이틀"
+              Style="{StaticResource subTitle}"/>
+
+        <Label x:Name="article01"
+               Text="자마린을 배운다"
+              Style="{StaticResource article}"/>
+
+        <Button x:Name="btn01"
+                Text="more"
+                Style="{StaticResource moreBtn}"/>
+
+        <Label x:Name="mainTitle02"
+               Text="메인제목"
+               TextColor="#fff"
+               FontSize="30"
+               FontAttributes="Bold"
+               Padding="5"
+               BackgroundColor="#f00"/>
+
+        <Label x:Name="subTitle02"
+               Text="서브제목"
+                Style="{StaticResource subTitle}"/>
+
+
+        <Label x:Name="article02"
+               Text="열심히 공부하자."
+              Style="{StaticResource article}"/>
+        <Button x:Name="btn02"
+                Text="more"
+                Style="{StaticResource moreBtn}"/>
+
+    </StackLayout>
+
+</ContentPage>

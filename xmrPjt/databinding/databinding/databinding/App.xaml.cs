@@ -10,7 +10,7 @@ namespace databinding
         {
             InitializeComponent();
 
-            MainPage = new databindingEX04();
+            MainPage = new databindingEX03CS();
         }
 
         protected override void OnStart()

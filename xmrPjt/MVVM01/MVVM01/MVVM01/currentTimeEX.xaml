@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVM01.currentTimeEX"
+             xmlns:sys="clr-namespace:System;assembly=netstandard" 
+             Padding="25">
+       <!--현재 시간을 표시하는 컨텐츠 뷰-->
+    <!--xmlns:sys="clr-namespace:System;assembly=netstandard" sys:DateTime을 쓰려면 사용해야하는 네임스페이스-->
+    
+    <StackLayout>
+        <StackLayout>
+            <Label Text="{Binding Source={x:Static sys:DateTime.Now}}"
+             FontSize="30"
+             HorizontalTextAlignment="Center"/>
+
+        </StackLayout>
+        <!--현재 시간을 sys:DateTime.Now를 통해 바인딩함-->
+
+        <StackLayout BindingContext="{x:Static sys:DateTime.Now}"> <!--스택 레이아웃에 바인딩 컨텍스트 생성-->
+            <Label Text="{Binding Year, StringFormat='현재 년도는 {0}'}"
+                   FontSize="30"
+                   HorizontalTextAlignment="Center"/>
+            <Label Text="{Binding StringFormat='현재 월은 {0:MMMM}'}"
+                   FontSize="30"
+                   HorizontalTextAlignment="Center"/>
+            <Label Text="{Binding Day, StringFormat='현재 일은{0}'}"
+                   FontSize="30"
+                   HorizontalTextAlignment="Center"/>
+            <Label Text="{Binding StringFormat='현재 시간은 {0:T}'}"
+                   FontSize="30"
+                   HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

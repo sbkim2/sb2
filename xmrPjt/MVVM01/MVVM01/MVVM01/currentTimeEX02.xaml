@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVM01.currentTimeEX02"
+             Padding="30">
+
+    <StackLayout>
+        <Label x:Name="label1"
+               FontSize="30"
+               HorizontalTextAlignment="Center"/>
+
+        <Label x:Name="label2"
+               FontSize="30"
+               HorizontalTextAlignment="Center"/>
+
+        <Label x:Name="label3"
+               FontSize="30"
+               HorizontalTextAlignment="Center"/>
+
+        <Label x:Name="label4"
+               FontSize="30"
+               HorizontalTextAlignment="Center"/>
+
+        <Label x:Name="label5"
+               FontSize="30"
+               HorizontalTextAlignment="Center"/>
+    </StackLayout>
+</ContentPage>

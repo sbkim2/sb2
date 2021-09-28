@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="style_implicit_dynamic.style_implicit">
+    <!--암시적 스타일은 타겟 타입에 알아서 적용이 된다. -->
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry">  <!--암시적 스타일은 키 값이 없음, 타겟타입에 그냥 적용됨-->
+                <Setter Property="HorizontalOptions" Value="Fill" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <Setter Property="BackgroundColor" Value="Yellow" />
+                <Setter Property="FontAttributes" Value="Italic" />
+                <Setter Property="TextColor" Value="Blue" />
+            </Style> <!-- 암시적 스타일-->
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Padding="0,20,0,0">
+            <Entry Text="김상범의" />
+            <Entry Text="스트링" />
+            <Entry Text="암시적 스타일" />
+            <Entry Text="오버라이드" BackgroundColor="Lime" TextColor="Red" />
+        </StackLayout> <!--암시적 스타일은 키 값이 없다. 마지막 엔트리 "오버라이드"는 자기자신의 스타일을 씀-->
+    </ContentPage.Content>
+</ContentPage>

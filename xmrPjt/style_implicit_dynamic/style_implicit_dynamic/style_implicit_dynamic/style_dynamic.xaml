@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="style_implicit_dynamic.style_dynamic">
+    
+    <!--다이나믹 스타일은 스타일을 *.CS 파일에 만들고 사용한다.-->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="baseStyle" TargetType="View"> <!--부모 스타일-->
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+            </Style>
+            
+            <Style x:Key="blueSearchBarStyle" TargetType="SearchBar" BasedOn="{StaticResource baseStyle}"> <!--상속받은 스타일-->
+                <Setter Property="FontAttributes" Value="Italic" />
+                <Setter Property="PlaceholderColor" Value="Blue" />
+            </Style>
+          
+            <Style x:Key="greenSearchBarStyle" TargetType="SearchBar">
+                <Setter Property="FontAttributes" Value="None" />
+                <Setter Property="PlaceholderColor" Value="GreenYellow" />
+            </Style>
+            
+            <Style x:Key="buttonStyle" TargetType="Button" BasedOn="{StaticResource baseStyle}">
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="Red" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Padding="0,20,0,0">
+            <SearchBar Placeholder="반가워요" 
+                       Style="{DynamicResource searchBarStyle}" />
+            <SearchBar Placeholder="처음뵙겠습니다/" 
+                       Style="{DynamicResource searchBarStyle}" />
+            <SearchBar Placeholder="플레이스홀더입니다." 
+                       Style="{DynamicResource searchBarStyle}" /> <!-- 다이나믹 리소스로 스타일을 외부 cs파일에서 찾는다-->
+            <SearchBar Placeholder="안녕하세요" 
+                       Style="{StaticResource greenSearchBarStyle}" /> <!--스태틱 리소스-->
+            <Button Text="Change Style" 
+                    Style="{StaticResource buttonStyle}" 
+                    Clicked="Button_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

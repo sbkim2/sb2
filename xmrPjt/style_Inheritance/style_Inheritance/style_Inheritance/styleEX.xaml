@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="style_Inheritance.styleEX">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="mainTitleStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#fff"/>
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Padding" Value="5"/>
+                <Setter Property="BackgroundColor" Value="#f00"/>
+                <Setter Property="HorizontalTextAlignment" Value="End"/>
+            </Style>
+
+            <Style x:Key="subTitleStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#fff"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Padding" Value="5, 5, 20, 5"/>
+                <Setter Property="BackgroundColor" Value="#900"/>
+                <Setter Property="HorizontalTextAlignment" Value="End"/>
+            </Style>
+
+            <Style x:Key="articleStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#fff"/>
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="FontAttributes" Value="None"/>
+                <Setter Property="Padding" Value="5, 5, 35, 5"/>
+                <Setter Property="BackgroundColor" Value="#500"/>
+                <Setter Property="HorizontalTextAlignment" Value="End"/>
+            </Style>
+
+            <Style x:Key="moreBtnStyle" TargetType="Button">
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="BackgroundColor" Value="#00f"/>
+                <Setter Property="TextColor" Value="#fff"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Label x:Name="mainTitle01"
+               Text="Main Title"
+               Style="{StaticResource mainTitleStyle}"/>
+
+        <Label x:Name="subTitle01"
+               Text="Sub Title"
+               Style="{StaticResource subTitleStyle}"/>
+
+        <Label x:Name="article01"
+               Text="자마린 배우는중입니다."
+               Style="{StaticResource articleStyle}"/>
+        <Button x:Name="btn01"
+                Text="more"
+                Style="{StaticResource moreBtnStyle}"/>
+
+        <Label x:Name="mainTitle02"
+               Text="Main Title"
+               Style="{StaticResource mainTitleStyle}"/>
+
+        <Label x:Name="subTitle02"
+               Text="Sub Title"
+               Style="{StaticResource subTitleStyle}"/>
+
+        <Label x:Name="article02"
+               Text="화이팅입니다."
+               Style="{StaticResource articleStyle}"/>
+        <Button x:Name="btn02"
+                Text="more"
+                Style="{StaticResource moreBtnStyle}"/>
+
+    </StackLayout>
+
+</ContentPage>

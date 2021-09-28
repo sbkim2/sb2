@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="style_Inheritance.inheritanceEX">
+    <!--스타일도 클래스 처럼 상속이 가능하다-->
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="baseStyle" TargetType="View">
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Padding="0,20,0,0">
+            <StackLayout.Resources>
+                <ResourceDictionary>
+                    <Style x:Key="labelStyle" TargetType="Label"
+                           BasedOn="{StaticResource baseStyle}">
+                        <!--컨텐츠 페이지의 baseStyle를 상속받음 -->
+                        <Setter Property="FontSize" Value="Large" />
+                        <Setter Property="FontAttributes" Value="Italic" />
+                        <Setter Property="TextColor" Value="Teal" />
+                    </Style>
+                    <Style x:Key="buttonStyle" TargetType="Button"
+                           BasedOn="{StaticResource baseStyle}">
+                        <!--컨텐츠 페이지의 baseStyle를 상속받음 -->
+                        <Setter Property="BorderColor" Value="Lime" />
+                        <Setter Property="CornerRadius" Value="5" />
+                        <Setter Property="BorderWidth" Value="5" />
+                        <Setter Property="WidthRequest" Value="200" />
+                        <Setter Property="TextColor" Value="Teal" />
+                    </Style>
+                </ResourceDictionary>
+            </StackLayout.Resources>
+
+            <Label Text="These labels" 
+                   Style="{StaticResource labelStyle}" />  <!--위 레이아웃의 스타일을 상속-->
+
+            <Label Text="are demonstrating" 
+                   Style="{StaticResource labelStyle}" />
+
+            <Label Text="style inheritance" 
+                   Style="{StaticResource labelStyle}" />
+
+            <Button Text="So is the button" 
+                    Style="{StaticResource buttonStyle}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="style_Inheritance.MainPage">
+
+
+    <StackLayout>
+        <Label x:Name="mainTitle01"
+               Text="메인 제목"
+               TextColor="#fff"
+               FontSize="30"
+               FontAttributes="Bold"
+               Padding="5"
+               BackgroundColor="#f00"/>
+
+        <Label x:Name="subTitle01"
+               Text="부 제목"
+               TextColor="#fff"
+               FontSize="20"
+               FontAttributes="Bold"
+               Padding="20, 5, 5, 5"
+               BackgroundColor="#900"/>
+
+        <Label x:Name="article01"
+               Text="자마린을 배운다"
+               TextColor="#fff"
+               FontSize="14"
+               FontAttributes="None"
+               Padding="35, 5, 5, 5"
+               BackgroundColor="#500"/>
+        <Button x:Name="btn01"
+                Text="more"
+                FontAttributes="Bold"
+                HorizontalOptions="End"/>
+
+        <Label x:Name="mainTitle02"
+               Text="Main Title"
+               TextColor="#fff"
+               FontSize="30"
+               FontAttributes="Bold"
+               Padding="5"
+               BackgroundColor="#f00"/>
+
+        <Label x:Name="subTitle02"
+               Text="Sub Title"
+               TextColor="#fff"
+               FontSize="20"
+               FontAttributes="Bold"
+               Padding="20, 5, 5, 5"
+               BackgroundColor="#900"/>
+
+        <Label x:Name="article02"
+               Text="열심히 공부하자."
+               TextColor="#fff"
+               FontSize="14"
+               FontAttributes="None"
+               Padding="35, 5, 5, 5"
+               BackgroundColor="#500"/>
+        <Button x:Name="btn02"
+                Text="more"
+                FontAttributes="Bold"
+                HorizontalOptions="End"/>
+        </StackLayout>
+
+</ContentPage>
